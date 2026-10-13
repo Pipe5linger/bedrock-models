@@ -1565,7 +1565,7 @@
         "ON_DEMAND"
       ]
     },
-    "model_lifecycle_status": "ACTIVE",
+    "model_lifecycle_status": "LEGACY",
     "inputModalities": [
       "IMAGE",
       "TEXT"
@@ -1660,7 +1660,7 @@
         "ON_DEMAND"
       ]
     },
-    "model_lifecycle_status": "ACTIVE",
+    "model_lifecycle_status": "LEGACY",
     "inputModalities": [
       "IMAGE",
       "TEXT"
@@ -11722,7 +11722,8 @@
         "sa-east-1",
         "us-east-1",
         "us-east-2",
-        "us-west-1"
+        "us-west-1",
+        "us-west-2"
       ],
       "US": {
         "ca-central-1": [
