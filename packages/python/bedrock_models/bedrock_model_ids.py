@@ -148,7 +148,6 @@ class Models:
     STABILITY_STABLE_IMAGE_ULTRA = BedrockModel("stability.stable-image-ultra-v1:1")
     STABILITY_STABLE_OUTPAINT = BedrockModel("stability.stable-outpaint-v1:0")
     STABILITY_STABLE_STYLE_TRANSFER = BedrockModel("stability.stable-style-transfer-v1:0")
-    TWELVELABS_MARENGO_EMBED_3_0 = BedrockModel("twelvelabs.marengo-embed-3-0-v1:0")
     TWELVELABS_PEGASUS_1_2 = BedrockModel("twelvelabs.pegasus-1-2-v1:0")
     TWELVELABS_PEGASUS_1_5 = BedrockModel("twelvelabs.pegasus-1-5-v1:0")
     WRITER_PALMYRA_VISION_7B = BedrockModel("writer.palmyra-vision-7b")
@@ -173,6 +172,7 @@ class Models:
     ANTHROPIC_CLAUDE_SONNET_4_20250514 = _DeprecatedModelDescriptor("anthropic.claude-sonnet-4-20250514-v1:0", "Model 'anthropic.claude-sonnet-4-20250514-v1:0' has LEGACY status and may be removed by AWS. Consider migrating to a newer model.")
     ANTHROPIC_CLAUDE_SONNET_4_5_20250929 = _DeprecatedModelDescriptor("anthropic.claude-sonnet-4-5-20250929-v1:0", "Model 'anthropic.claude-sonnet-4-5-20250929-v1:0' has LEGACY status and may be removed by AWS. Consider migrating to a newer model.")
     TWELVELABS_MARENGO_EMBED_2_7 = _DeprecatedModelDescriptor("twelvelabs.marengo-embed-2-7-v1:0", "Model 'twelvelabs.marengo-embed-2-7-v1:0' has LEGACY status and may be removed by AWS. Consider migrating to a newer model.")
+    TWELVELABS_MARENGO_EMBED_3_0 = _DeprecatedModelDescriptor("twelvelabs.marengo-embed-3-0-v1:0", "Model 'twelvelabs.marengo-embed-3-0-v1:0' has LEGACY status and may be removed by AWS. Consider migrating to a newer model.")
 
 
 class MantleModels:
@@ -347,7 +347,6 @@ class RuntimeModels:
     STABILITY_STABLE_IMAGE_ULTRA = BedrockModel("stability.stable-image-ultra-v1:1")
     STABILITY_STABLE_OUTPAINT = BedrockModel("stability.stable-outpaint-v1:0")
     STABILITY_STABLE_STYLE_TRANSFER = BedrockModel("stability.stable-style-transfer-v1:0")
-    TWELVELABS_MARENGO_EMBED_3_0 = BedrockModel("twelvelabs.marengo-embed-3-0-v1:0")
     TWELVELABS_PEGASUS_1_2 = BedrockModel("twelvelabs.pegasus-1-2-v1:0")
     TWELVELABS_PEGASUS_1_5 = BedrockModel("twelvelabs.pegasus-1-5-v1:0")
     WRITER_PALMYRA_VISION_7B = BedrockModel("writer.palmyra-vision-7b")
@@ -370,3 +369,4 @@ class RuntimeModels:
     ANTHROPIC_CLAUDE_SONNET_4_20250514 = _DeprecatedModelDescriptor("anthropic.claude-sonnet-4-20250514-v1:0", "Model 'anthropic.claude-sonnet-4-20250514-v1:0' has LEGACY status and may be removed by AWS. Consider migrating to a newer model.")
     ANTHROPIC_CLAUDE_SONNET_4_5_20250929 = _DeprecatedModelDescriptor("anthropic.claude-sonnet-4-5-20250929-v1:0", "Model 'anthropic.claude-sonnet-4-5-20250929-v1:0' has LEGACY status and may be removed by AWS. Consider migrating to a newer model.")
     TWELVELABS_MARENGO_EMBED_2_7 = _DeprecatedModelDescriptor("twelvelabs.marengo-embed-2-7-v1:0", "Model 'twelvelabs.marengo-embed-2-7-v1:0' has LEGACY status and may be removed by AWS. Consider migrating to a newer model.")
+    TWELVELABS_MARENGO_EMBED_3_0 = _DeprecatedModelDescriptor("twelvelabs.marengo-embed-3-0-v1:0", "Model 'twelvelabs.marengo-embed-3-0-v1:0' has LEGACY status and may be removed by AWS. Consider migrating to a newer model.")
