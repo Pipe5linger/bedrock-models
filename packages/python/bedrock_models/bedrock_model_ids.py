@@ -151,8 +151,6 @@ class Models:
     TWELVELABS_PEGASUS_1_2 = BedrockModel("twelvelabs.pegasus-1-2-v1:0")
     TWELVELABS_PEGASUS_1_5 = BedrockModel("twelvelabs.pegasus-1-5-v1:0")
     WRITER_PALMYRA_VISION_7B = BedrockModel("writer.palmyra-vision-7b")
-    WRITER_PALMYRA_X4 = BedrockModel("writer.palmyra-x4-v1:0")
-    WRITER_PALMYRA_X5 = BedrockModel("writer.palmyra-x5-v1:0")
     XAI_GROK_4_3 = BedrockModel("xai.grok-4.3")
     XAI_GROK_4_6 = BedrockModel("xai.grok-4.6")
     XAI_GROK_4_7 = BedrockModel("xai.grok-4.7")
@@ -173,6 +171,8 @@ class Models:
     ANTHROPIC_CLAUDE_SONNET_4_5_20250929 = _DeprecatedModelDescriptor("anthropic.claude-sonnet-4-5-20250929-v1:0", "Model 'anthropic.claude-sonnet-4-5-20250929-v1:0' has LEGACY status and may be removed by AWS. Consider migrating to a newer model.")
     TWELVELABS_MARENGO_EMBED_2_7 = _DeprecatedModelDescriptor("twelvelabs.marengo-embed-2-7-v1:0", "Model 'twelvelabs.marengo-embed-2-7-v1:0' has LEGACY status and may be removed by AWS. Consider migrating to a newer model.")
     TWELVELABS_MARENGO_EMBED_3_0 = _DeprecatedModelDescriptor("twelvelabs.marengo-embed-3-0-v1:0", "Model 'twelvelabs.marengo-embed-3-0-v1:0' has LEGACY status and may be removed by AWS. Consider migrating to a newer model.")
+    WRITER_PALMYRA_X4 = _DeprecatedModelDescriptor("writer.palmyra-x4-v1:0", "Model 'writer.palmyra-x4-v1:0' has LEGACY status and may be removed by AWS. Consider migrating to a newer model.")
+    WRITER_PALMYRA_X5 = _DeprecatedModelDescriptor("writer.palmyra-x5-v1:0", "Model 'writer.palmyra-x5-v1:0' has LEGACY status and may be removed by AWS. Consider migrating to a newer model.")
 
 
 class MantleModels:
@@ -350,8 +350,6 @@ class RuntimeModels:
     TWELVELABS_PEGASUS_1_2 = BedrockModel("twelvelabs.pegasus-1-2-v1:0")
     TWELVELABS_PEGASUS_1_5 = BedrockModel("twelvelabs.pegasus-1-5-v1:0")
     WRITER_PALMYRA_VISION_7B = BedrockModel("writer.palmyra-vision-7b")
-    WRITER_PALMYRA_X4 = BedrockModel("writer.palmyra-x4-v1:0")
-    WRITER_PALMYRA_X5 = BedrockModel("writer.palmyra-x5-v1:0")
     XAI_GROK_4_6 = BedrockModel("xai.grok-4.6")
     XAI_GROK_4_7 = BedrockModel("xai.grok-4.7")
     ZAI_GLM_4_7 = BedrockModel("zai.glm-4.7")
@@ -370,3 +368,5 @@ class RuntimeModels:
     ANTHROPIC_CLAUDE_SONNET_4_5_20250929 = _DeprecatedModelDescriptor("anthropic.claude-sonnet-4-5-20250929-v1:0", "Model 'anthropic.claude-sonnet-4-5-20250929-v1:0' has LEGACY status and may be removed by AWS. Consider migrating to a newer model.")
     TWELVELABS_MARENGO_EMBED_2_7 = _DeprecatedModelDescriptor("twelvelabs.marengo-embed-2-7-v1:0", "Model 'twelvelabs.marengo-embed-2-7-v1:0' has LEGACY status and may be removed by AWS. Consider migrating to a newer model.")
     TWELVELABS_MARENGO_EMBED_3_0 = _DeprecatedModelDescriptor("twelvelabs.marengo-embed-3-0-v1:0", "Model 'twelvelabs.marengo-embed-3-0-v1:0' has LEGACY status and may be removed by AWS. Consider migrating to a newer model.")
+    WRITER_PALMYRA_X4 = _DeprecatedModelDescriptor("writer.palmyra-x4-v1:0", "Model 'writer.palmyra-x4-v1:0' has LEGACY status and may be removed by AWS. Consider migrating to a newer model.")
+    WRITER_PALMYRA_X5 = _DeprecatedModelDescriptor("writer.palmyra-x5-v1:0", "Model 'writer.palmyra-x5-v1:0' has LEGACY status and may be removed by AWS. Consider migrating to a newer model.")
