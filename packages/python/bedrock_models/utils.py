@@ -19,6 +19,7 @@ def load_model_data() -> dict:
         target_path = (json_path.parent / content.strip()).resolve()
         with open(target_path, "r", encoding="utf-8") as f:
             return json.load(f)
+        return json.load(f)
 
 
 def _get_region_from_boto3() -> Optional[str]:
